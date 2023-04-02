@@ -1,3 +1,4 @@
+Login using github profile (PreetamSing) in VS Code.
 In settings:
 - Background Tab -> Choose wallpaper
 - Appearance Tab -> Light theme, orange color, position of new icons - bottom right, auto-hide dock - ON, configure dock behaviour -> show Trash - OFF
