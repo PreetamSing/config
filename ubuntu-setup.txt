@@ -1,0 +1,7 @@
+In settings:
+- Background Tab -> Choose wallpaper
+- Appearance Tab -> Light theme, orange color, position of new icons - bottom right, auto-hide dock - ON, configure dock behaviour -> show Trash - OFF
+- Power Tab -> Dim screen - ON, Screen Blank (15 mins), Automatic Suspend on battery power after 45 mins, show battery percentage - ON
+- Displays Tab -> Night Light Tab -> ON, Manual Schedule 00:00-23:59
+Download following packages in _p_pkg_downloads:
+- neovim: https://github.com/neovim/neovim/releases/tag/stable
