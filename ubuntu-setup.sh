@@ -13,6 +13,7 @@ cd ~
 cp _p_setup_repos/config/.*.* ./
 cd .config/
 cp -r ~/_p_setup_repos/config/.config/* ./
+cp -r ~/_p_setup_repos/config/.ssh/* ~/.ssh/
 # Following alacritty installation from: https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 ## ALACRITTY INSTALLATION START <<<<<<
 cd ~/_p_setup_repos
