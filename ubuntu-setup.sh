@@ -60,7 +60,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 ## Install "nvm.fish"
 fisher install jorgebucaran/nvm.fish
 ## Install the latest LTS Node Release.
-nvm install v18.15.0
+nvm install v18.15.0 # this version needs to be updated in "~/.config/fish/config.fish" as well.
 
 # Install VS Code
 ## Reference: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
