@@ -92,8 +92,6 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.17.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# FIXME: poweroff and reboot commands ain't working in fish shell either.
-
 # Download nerd-fonts
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts/
