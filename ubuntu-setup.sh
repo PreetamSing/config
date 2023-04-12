@@ -96,3 +96,12 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.17.2/docker
 sudo chmod +x /usr/local/bin/docker-compose
 
 # FIXME: npm and nodejs commands don't work in fish shell. Probably something with nvm setup.
+# FIXME: poweroff and reboot commands ain't working in fish shell either.
+
+# Download nerd-fonts
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts/
+curl -fLo "Hack Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/v2.3.3/patched-fonts/Hack/Bold/complete/Hack%20Bold%20Nerd%20Font%20Complete.ttf
+curl -fLo "Hack Bold Italic Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/v2.3.3/patched-fonts/Hack/BoldItalic/complete/Hack%20Bold%20Italic%20Nerd%20Font%20Complete.ttf
+curl -fLo "Hack Italic Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/v2.3.3/patched-fonts/Hack/Italic/complete/Hack%20Italic%20Nerd%20Font%20Complete.ttf
+curl -fLo "Hack Regular Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/v2.3.3/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
