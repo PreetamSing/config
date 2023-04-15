@@ -69,7 +69,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lua"
 
   -- Colorschemes
-  use "EdenEast/nightfox.nvim"
+  use "folke/tokyonight.nvim"
   use "kyazdani42/nvim-web-devicons"
   use {
     'feline-nvim/feline.nvim',
