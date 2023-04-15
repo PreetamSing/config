@@ -1,8 +1,19 @@
-
 local servers = {
-  "lua_ls",
+	-- Install below packages by running following in command mode in neovim: "MasonInstall black prettier stylua"
+	--[[ "black",
+	"stylua",
+	"prettier", ]]
+	"bashls",
+	"cssls",
+	"html",
+	"lua_ls",
+	"yamlls",
 	"pyright",
 	"jsonls",
+	"rust_analyzer",
+	"solc",
+	"gopls",
+	"tsserver",
 }
 
 local settings = {
