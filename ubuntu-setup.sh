@@ -104,3 +104,7 @@ curl -fLo "Hack Regular Nerd Font Complete.ttf" https://github.com/ryanoasis/ner
 sudo apt install ripgrep
 # Python's "black" formatter neovim dependency.
 sudo apt install python3.10-venv
+
+# Install Java
+sudo apt install openjdk-17-jre-headless
+sudo apt install openjdk-17-jdk-headless
