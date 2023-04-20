@@ -108,4 +108,9 @@ sudo apt install python3.10-venv
 # Install Java
 sudo apt install openjdk-17-jre-headless
 sudo apt install openjdk-17-jdk-headless
+
+# Optional: Protoc Installation. Initially installed for apollor router compilation.
 sudo apt install protobuf-compiler
+
+# Optional: Apollo's "rover-cli" installation.
+curl -sSL https://rover.apollo.dev/nix/latest | sh
