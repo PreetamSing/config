@@ -108,3 +108,4 @@ sudo apt install python3.10-venv
 # Install Java
 sudo apt install openjdk-17-jre-headless
 sudo apt install openjdk-17-jdk-headless
+sudo apt install protobuf-compiler
