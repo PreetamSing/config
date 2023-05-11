@@ -10,7 +10,7 @@ mkdir _p_setup_repos
 cd _p_setup_repos
 git clone https://github.com/PreetamSing/config.git
 cd ~
-cp _p_setup_repos/config/.*.* ./
+cp -r _p_setup_repos/config/.*.* ./
 cd .config/
 cp -r ~/_p_setup_repos/config/.config/* ./
 cp -r ~/_p_setup_repos/config/.ssh/* ~/.ssh/
@@ -114,3 +114,8 @@ sudo apt install protobuf-compiler
 
 # Optional: Apollo's "rover-cli" installation.
 curl -sSL https://rover.apollo.dev/nix/latest | sh
+
+# NestJS cli tool
+npm i -g @nestjs/cli
+# yarn (npm's alternative)
+npm i -g yarn
