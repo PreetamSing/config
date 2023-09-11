@@ -53,10 +53,12 @@ sudo bash -c "echo \"# Dynamic resolv.conf(5) file for glibc resolver(3) generat
 # 127.0.0.53 is the systemd-resolved stub resolver.
 # run \"systemd-resolve --status\" to see details about the actual nameservers.
 nameserver 1.1.1.1
-nameserver 8.8.8.8.3\" > /etc/resolvconf/resolv.conf.d/head"
+nameserver 8.8.8.8\" > /etc/resolvconf/resolv.conf.d/head"
 sudo systemctl enable --now resolvconf.service
+
+# Commands to be run in fish from here. Reboot once before proceeding.
 ## Install "fisher" that will be used to install "nvm.fish" as normal "nvm" isn't supported in fish.
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/raw/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher # Manually download file if curl doesn't work.
 ## Install "nvm.fish"
 fisher install jorgebucaran/nvm.fish
 ## Install the latest LTS Node Release.
