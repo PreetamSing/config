@@ -6,5 +6,6 @@ In settings:
 - Displays Tab -> Night Light Tab -> ON, Manual Schedule 00:00-23:59
 Download following packages in _p_pkg_downloads:
 - neovim: https://github.com/neovim/neovim/releases/tag/stable
+  Download nvim-linux.tar.gz in _p_pkg_downloads and extract at the same place.
 
 Install formatting packages by running following in command mode in neovim: "MasonInstall black prettier stylua"
