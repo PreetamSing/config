@@ -58,7 +58,7 @@ sudo systemctl enable --now resolvconf.service
 
 # Commands to be run in fish from here. Reboot once before proceeding.
 ## Install "fisher" that will be used to install "nvm.fish" as normal "nvm" isn't supported in fish.
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/raw/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher # Manually download file if curl doesn't work.
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher # Manually download file if curl doesn't work.
 ## Install "nvm.fish"
 fisher install jorgebucaran/nvm.fish
 ## Install the latest LTS Node Release.
