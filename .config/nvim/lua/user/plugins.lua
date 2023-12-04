@@ -53,7 +53,7 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
-  use "lukas-reineke/indent-blankline.nvim"
+  use { "lukas-reineke/indent-blankline.nvim", commit = "9637670896b68805430e2f72cf5d16be5b97a22a" }
   use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
@@ -94,6 +94,7 @@ return packer.startup(function(use)
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
+    commit = "15d327fe6324d8269451131ec34ad4f2a8ef1e01",
     run = ":TSUpdate",
   }
   use "JoosepAlviste/nvim-ts-context-commentstring"
